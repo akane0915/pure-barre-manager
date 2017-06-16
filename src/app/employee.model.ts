@@ -5,5 +5,7 @@ export class Employee {
     public role: string,
     public aboutMe: string,
     public strength: number,
-    public schedulePreference: string) {}
+    public schedulePreference: string,
+    public imageURL: string)
+  { }
 }

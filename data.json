@@ -4,41 +4,47 @@
   "aboutMe": "Asia will be the first to tell you that she 'LOVES Pure Barre!' She came to us after taking hundreds of classes all over the country in the various places she has lived. Her job as an engineer took her everywhere from LA to Nebraska and Pure Barre was a constant in her life. We love Asia because she is 'gentleness personified' but she is not afraid to speak her mind. We are lucky that her barre-bestie is also her Mom, Donna, a wonderful member of our community. Asia is smart as a whip, kind and she teaches a kick ass class. Find her at the studio and say 'hi!'",
   "strength": "Great at connecting with clients.",
   "schedulePreference": "Morning",
-  "classesTaught": 65
+  "classesTaught": 65,
+  "imageURL": "https://instagram.fsnc1-2.fna.fbcdn.net/t51.2885-15/e35/18443153_934471933357312_7990316183490396160_n.jpg"
   },{
     "name": "Stephanie",
     "role": "Teacher",
     "aboutMe": "Steph was one of the first teachers that we hired at the studio. She was a client first and completely fell in love with the way Pure Barre strengthened and toned her body. Steph is multi talented. She's an actor who can sing like an angel. A massage therapist. And a wonderful friend. Stephanie is strong and determined, she shines light on mental health issues that aren't easily talked about. She loves her cat, Minnie (aka Minerva or professor McGonagall) more than she loves most humans and she is the biggest dork you will ever meet. Ask her about Harry Potter or Leslie Knope and you will instantly become best friends. We are so lucky to have Stephanie on our team. You can take her classes all day on Fridays.",
     "strength": "Consistent classes",
     "schedulePreference": "Evening",
-    "classesTaught": 90
+    "classesTaught": 90,
+    "imageURL": "https://instagram.fsnc1-2.fna.fbcdn.net/t51.2885-15/e35/18444217_1069963999813872_5771075434544365568_n.jpg"
   },{
     "name": "Hannah",
     "role": "Teacher",
     "aboutMe": "Hannah comes to us from up in WA and although she just started teaching Pure Barre seven months ago she has been taking barre classes for years. She is a total health nut, always trying new workouts and teaching us about supplements. She is almost done with her schooling to become a medical esthetician. So if you need a bomb facial (and who doesn't?!) she is your gal. She has an incredible work ethic, she is always the first person to step up in any situation to ask 'how can I help?' She is a pillar of this studio and our community just wouldn't be the same without her. Hannahs classes challenge you and push you into that place where you see the change happen in your body and mind. Find her on the schedule at 6am or Monday evenings!",
     "strength": "Genuinely cares about client success",
     "schedulePreference": "Morning",
-    "classesTaught": 100
+    "classesTaught": 100,
+    "imageURL": "https://instagram.fsnc1-2.fna.fbcdn.net/t51.2885-15/e35/18382711_768770873286216_6633266608565387264_n.jpg"
   }, {
     "name": "Cari",
     "role": "Manager",
     "aboutMe": "Cari is one of those people who can look at an empty room and in minutes breathe life into it with her imagination and unique ideas. She is a strong, courageous woman and perseveres with any obstacle that comes her way. Her studies at Rutgers and experience has made her a jack of all trades: entrepreneur / film director / actor / fashionista...AND she has the best classes around. But really. Her classes will make you burn, shake, and change. She's been our badass studio mother who's turned this place into the amazing community it is. She is the heart and soul of our PBPDX studio! Thank you for everything you do ",
     "strength": "Cares for her employees!",
     "schedulePreference": "Day Time",
-    "classesTaught": 200
+    "classesTaught": 200,
+    "imageURL": "https://instagram.fsnc1-2.fna.fbcdn.net/t51.2885-15/e35/18581417_1965457507016314_2221665691776319488_n.jpg"
   }, {
     "name": "Darcy",
     "role": "Manager",
     "aboutMe": "Darcy is the best. No seriously everyone who meets her falls in love with her. She is a go getter never stopping until the job is done right and well. She is a veteran teacher. She started teaching Pure Barre in MN and then in Chicago when she was getting her MBA. She is a graduate of the Kellog School of Business at Northwestern University. So she's just a little bit smart. She works at Nike full time as well as helping Cari run the studio (we just want to know when does she sleep?!). She always has a ton of positive energy and a huge smile on her face. Darcy's classes are hard. She will push and motivate you past the point you thought was possible and then push you a little further. She is always teaching on Sunday's at 4pm. You can also take her beginner Foundations class on Sundays at 11:30am! ",
     "strength": "Strong business and financial mindset",
     "schedulePreference": "Evening",
-    "classesTaught": 150
+    "classesTaught": 150,
+    "imageURL": "https://instagram.fsnc1-2.fna.fbcdn.net/t51.2885-15/e35/18513263_304908789946388_3326762653937827840_n.jpg"
   }, {
     "name": "Mariel",
     "role": "Front Desk",
     "aboutMe": "Mariel is an intensely loyal friend and talented actress. We are so lucky to have her cut throat, yet kind, attitude on our team.",
     "strength": "Organized",
     "schedulePreference": "Day Time",
-    "classesTaught": 0
+    "classesTaught": 0,
+    "imageURL": "https://instagram.fsnc1-2.fna.fbcdn.net/t51.2885-15/e35/18382578_653887394797104_7978124214446063616_n.jpg" 
   }]
 }
