@@ -22,7 +22,8 @@ export class EmployeeDetailComponent implements OnInit {
           this.employeeId = urlParameters['id'];
     });
 
-    this.employeeService.getEmployeeById(this.employeeId).subscribe(dataLastEmittedFromObserver => {this.employeeToShow = dataLastEmittedFromObserver});
+    this.employeeService.getEmployeeById(this.employeeId)
+      .subscribe(dataLastEmittedFromObserver => {this.employeeToShow = dataLastEmittedFromObserver});
   }
 
 }

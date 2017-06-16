@@ -23,8 +23,8 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  detailButtonClicked(employee){
-    this.router.navigate(['employees',employee.$key])
+  detailButtonClicked(employee) {
+    this.router.navigate(['employees', employee.$key]);
   }
 
 }

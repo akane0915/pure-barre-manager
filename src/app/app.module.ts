@@ -11,6 +11,7 @@ import { routing } from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
+import { NewEmployeeComponent } from './new-employee/new-employee.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -24,7 +25,8 @@ export const firebaseConfig = {
     AppComponent,
     HomeComponent,
     AboutComponent,
-    EmployeeDetailComponent
+    EmployeeDetailComponent,
+    NewEmployeeComponent
   ],
   imports: [
     BrowserModule,

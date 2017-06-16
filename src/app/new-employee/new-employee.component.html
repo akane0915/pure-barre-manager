@@ -1,0 +1,32 @@
+<div class="jumbotron">
+  <h1>Pure Barre PDX Pearl</h1>
+</div>
+
+<nav class="nav navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav nav-pills navbar-right">
+      <li role="presentation"><a routerLink="">Home</a></li>
+      <li role="presentation"><a routerLink="/about">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h3>New Employee</h3>
+  <div class="form-group">
+    <input #newName class="form-control" placeholder="Name"><br>
+    <input #newRole class="form-control" placeholder="Role"><br>
+    <textarea #newAboutMe class="form-control" placeholder="Type 'About Section' here"></textarea><br>
+    <input #newStrength class="form-control" placeholder="What is this employee's greatest strength?"><br>
+    <label>Schedule Preference:</label>
+    <select #newSchedulePreference class="form-control">
+      <option [value]="any-time"> </option>
+      <option [value]="morning"> Morning </option>
+      <option [value]="day-time"> Day Time </option>
+      <option [value]="evening"> Evening </option>
+    </select><br>
+    <input #newImageURL class="form-control" placeholder="Image URL"><br>
+
+    <button class="btn btn-default" (click)="addButtonClicked(newName.value, newRole.value, newAboutMe.value, newStrength.value, newSchedulePreference.value, newImageURL.value); newName.value=''; newRole.value=''; newAboutMe.value=''; newStrength.value=''; newSchedulePreference.value='any-time'; newImageURL.value=''">Add</button>
+  </div>
+</div>

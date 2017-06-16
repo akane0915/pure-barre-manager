@@ -4,7 +4,7 @@ export class Employee {
     public name: string,
     public role: string,
     public aboutMe: string,
-    public strength: number,
+    public strength: string,
     public schedulePreference: string,
     public imageURL: string) { }
 }

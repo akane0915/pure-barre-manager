@@ -18,4 +18,8 @@ export class EmployeeService {
   getEmployeeById(employeeId: string) {
     return this.database.object('employees/' + employeeId);
   }
+
+  addEmployee(employeeToAdd: Employee) {
+    this.employees.push(employeeToAdd);
+  }
 }
