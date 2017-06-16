@@ -24,7 +24,7 @@ As a user:
 The application structure is outlined below.  
 
 Models:
-  - Employee (Properties: name, role, about-me, strength (great at motivating clients, excellent at memorizing choreography), schedule-preference (morning, day-time, evening), classes-taught)
+  - Employee (Properties: name, role, aboutMe, strength (great at motivating clients, excellent at memorizing choreography), schedulePreference (morning, day-time, evening), classesTaught)
 
 Entry Point:
   - main.ts
