@@ -14,4 +14,8 @@ export class EmployeeService {
   getEmployees() {
     return this.employees;
   }
+
+  getEmployeeById(employeeId: string) {
+    return this.database.object('employees/' + employeeId);
+  }
 }

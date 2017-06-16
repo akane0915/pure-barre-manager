@@ -6,6 +6,5 @@ export class Employee {
     public aboutMe: string,
     public strength: number,
     public schedulePreference: string,
-    public imageURL: string)
-  { }
+    public imageURL: string) { }
 }
