@@ -1,4 +1,4 @@
-# _Pure Barre Manager_
+# _Pure Barre Portland Manager_
 
 #### _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.  Pure Barre is a nation-wide boutique fitness studio.  The purpose of this application is to help the Pure Barre Portland manager track its employees (teachers, front desk staff, etc) to ensure the studio is at tip top shape! June 16, 2017_
 

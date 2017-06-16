@@ -6,7 +6,7 @@
     "akane0915 <asialkane@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/akane0915/pure-barre-manager",
   "ignore": [
     "**/.*",
     "node_modules",
