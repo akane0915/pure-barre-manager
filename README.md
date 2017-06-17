@@ -4,8 +4,6 @@
 
 #### By _**Asia Kane**_
 
-![Homepage](resources/images/homepage.png)
-
 ## Description
 
 Barre is a form of fitness that is sweeping the nation!  I work as a teacher at the Pure Barre Portland Studio.  This application was built to help the Pure Barre manage keep track of employees! This app fulfills the following user stories:
@@ -130,5 +128,5 @@ _N/A_
 _I encourage you to update/make suggestions/refactor this code as you see fit. I am always open to improvement! Please contact Asia Kane at asialkane@gmail.com with questions._
 
 ### License
-  *This software is licensed under the MIT license*
-  Copyright © 2017 **Asia Kane**
+*This software is licensed under the MIT license*
+Copyright © 2017 **Asia Kane**
