@@ -1,3 +1,26 @@
-<p>
-  edit-employee works!
-</p>
+<h4>Edit Employee</h4>
+
+<label>Name:</label>
+<input [(ngModel)]="selectedEmployee.name" class="form-control">
+<br>
+
+<label>Role:</label>
+<input [(ngModel)]="selectedEmployee.role" class="form-control">
+<br>
+
+<label>About Me Section:</label>
+<input [(ngModel)]="selectedEmployee.aboutMe" class="form-control">
+
+<label>Strength:</label>
+<input [(ngModel)]="selectedEmployee.strength" class="form-control">
+
+<label>Schedule Preference:</label>
+<input [(ngModel)]="selectedEmployee.schedulePreference" class="form-control">
+
+<label>Number of Classes Taught:</label>
+<input [(ngModel)]="selectedEmployee.classesTaught" class="form-control">
+
+<label>Image URL:</label>
+<input [(ngModel)]="selectedEmployee.imageURL" class="form-control">
+
+<button class="btn btn-default" (click)="updateButtonClicked(selectedEmployee)">Submit Update</button>

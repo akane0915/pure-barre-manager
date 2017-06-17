@@ -13,8 +13,8 @@ import { Router } from '@angular/router';
 })
 
 export class HomeComponent implements OnInit {
-
   employees: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
 
   constructor(private employeeService: EmployeeService, private router: Router) {
     this.employees = this.employeeService.getEmployees();

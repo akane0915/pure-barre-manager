@@ -1,3 +1,11 @@
+.jumbotron{
+  background-image: url('https://scontent.fsnc1-2.fna.fbcdn.net/v/t1.0-9/16003255_1858471557729342_3560960786736175809_n.jpg?oh=7e29e89056fbdec0e4068de2a6dbc4d3&oe=59D251CF');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 450px;
+}
+
 .main-body-content{
   margin: 0 0 100px 0;
 }

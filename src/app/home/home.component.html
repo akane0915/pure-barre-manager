@@ -1,16 +1,3 @@
-<div class="jumbotron">
-  <h1>Pure Barre PDX Pearl District</h1>
-</div>
-
-<nav class="nav navbar-default">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav nav-pills navbar-right">
-      <li role="presentation" class="active"><a routerLink="">Home</a></li>
-      <li role="presentation"><a routerLink="/about">About</a></li>
-    </ul>
-</div>
-</nav>
-
 <div class="container">
   <h1>Check Out The Pure Barre Employees Below!</h1>
 
@@ -18,7 +5,22 @@
     <div class="employee well">
       <h3>{{employee.name}}</h3>
       <img class="employee-image" src="{{employee.imageURL}}" alt="Employee Profile Image">
-      <button class="btn btn-default" (click)="detailButtonClicked(employee)">View Employee Details</button>
+      <div *ngIf="currentRoute === '/'">
+        <button class="btn btn-default" (click)="detailButtonClicked(employee)">View Employee Details</button>
+      </div>
+
+      <div *ngIf="currentRoute === '/admin'">
+        <ul>
+          <li>Role: {{employee.role}}</li>
+          <li>Professional Strength: {{employee.strength}}</li>
+          <li>Schedule Preference: {{employee.schedulePreference}}</li>
+          <li>Classes Taught: {{employee.classesTaught}}</li>
+          <li>A little about her: {{employee.aboutMe}}</li>
+        </ul>
+        <hr>
+        <app-edit-employee [selectedEmployee]="employee"></app-edit-employee>
+      </div>
+
     </div>
   </div>
 </div>

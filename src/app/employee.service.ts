@@ -22,4 +22,16 @@ export class EmployeeService {
   addEmployee(employeeToAdd: Employee) {
     this.employees.push(employeeToAdd);
   }
+
+  updateEmployee(employeeToUpdate){
+  var employeeEntryInFirebase = this.getEmployeeById(employeeToUpdate.$key);
+  employeeEntryInFirebase.update({name: employeeToUpdate.name,
+                              role: employeeToUpdate.role,
+                              aboutMe: employeeToUpdate.aboutMe,
+                              strength: employeeToUpdate.strength,
+                              schedulePreference: employeeToUpdate.schedulePreference,
+                              classesTaught: employeeToUpdate.classesTaught,
+                              imageURL: employeeToUpdate.imageURL
+                            });
+  }
 }
