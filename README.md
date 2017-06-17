@@ -43,7 +43,7 @@ Components:
   - home.component.ts
   - about.component.ts
   - employee-detail.component.ts
-  - new-employee.component.ts
+  - admin.component.ts
   - edit-employee.component.ts
 
 Pipes:

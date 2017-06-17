@@ -3,12 +3,12 @@ import { Employee } from '../employee.model';
 import { EmployeeService } from '../employee.service';
 
 @Component({
-  selector: 'app-new-employee',
-  templateUrl: './new-employee.component.html',
-  styleUrls: ['./new-employee.component.css'],
+  selector: 'app-admin',
+  templateUrl: './admin.component.html',
+  styleUrls: ['./admin.component.css'],
   providers: [EmployeeService]
 })
-export class NewEmployeeComponent implements OnInit {
+export class AdminComponent implements OnInit {
   employeeToAdd: Employee;
 
   constructor(private employeeService: EmployeeService) { }
