@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { AdminComponent } from './admin/admin.component';
 import { EditEmployeeComponent } from './edit-employee/edit-employee.component';
+import { roleFilterPipe } from './role-filter.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,7 +29,8 @@ export const firebaseConfig = {
     AboutComponent,
     EmployeeDetailComponent,
     AdminComponent,
-    EditEmployeeComponent
+    EditEmployeeComponent,
+    roleFilterPipe
   ],
   imports: [
     BrowserModule,

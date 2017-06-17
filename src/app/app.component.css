@@ -1,9 +1,13 @@
 .jumbotron{
-  background-image: url('https://scontent.fsnc1-2.fna.fbcdn.net/v/t1.0-9/16003255_1858471557729342_3560960786736175809_n.jpg?oh=7e29e89056fbdec0e4068de2a6dbc4d3&oe=59D251CF');
+  background-image: url('https://scontent-atl3-1.cdninstagram.com/t51.2885-15/e35/17818149_1852765251647659_2887139134483202048_n.jpg');
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
-  min-height: 450px;
+  min-height: 550px;
+}
+
+h1 {
+  color: white;
 }
 
 .main-body-content{

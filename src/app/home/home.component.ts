@@ -13,18 +13,32 @@ import { Router } from '@angular/router';
 })
 
 export class HomeComponent implements OnInit {
-  employees: FirebaseListObservable<any[]>;
+  employees: Employee[];
   currentRoute: string = this.router.url;
+  filterByRole: string = 'all-employees';
+  uniqueRoles: string[] = [];
 
   constructor(private employeeService: EmployeeService, private router: Router) {
-    this.employees = this.employeeService.getEmployees();
   }
 
   ngOnInit() {
+    this.employeeService.getEmployees()
+      .subscribe(dataLastEmittedFromObserver => { this.employees = dataLastEmittedFromObserver;
+          this.employees.forEach((employee) => {
+            if (this.uniqueRoles.includes(employee.role)) {
+            } else {
+              this.uniqueRoles.push(employee.role);
+            }
+          });
+        });
   }
 
   detailButtonClicked(employee) {
     this.router.navigate(['employees', employee.$key]);
+  }
+
+  onChange(roleFromMenu) {
+  this.filterByRole = roleFromMenu;
   }
 
 }

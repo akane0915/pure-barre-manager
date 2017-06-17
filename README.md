@@ -8,7 +8,7 @@
 
 ## Description
 
-Every zoo should have an easy-to-use application to help its employees track animals.  This helps to ensure the animals are cared for properly.  After all, the zoo is their home!  This app fulfills the following user stories:
+Barre is a form of fitness that is sweeping the nation!  I work as a teacher at the Pure Barre Portland Studio.  This application was built to help the Pure Barre manage keep track of employees! This app fulfills the following user stories:
 
 As a user:
 
@@ -47,7 +47,7 @@ Components:
   - edit-employee.component.ts
 
 Pipes:
-  - schedule-filter.pipe.ts
+  - role-filter.pipe.ts
 
 ## Prerequisites
 
@@ -128,12 +128,6 @@ _N/A_
 
 ## Support and contact details
 _I encourage you to update/make suggestions/refactor this code as you see fit. I am always open to improvement! Please contact Asia Kane at asialkane@gmail.com with questions._
-
-## Screen Shots
-
-![Animal Details](resources/images/animal-details.png)
-![New Animal](resources/images/new-animal.png)
-![Edit Animal](resources/images/edit.png)
 
 ### License
   *This software is licensed under the MIT license*

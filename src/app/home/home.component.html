@@ -1,7 +1,15 @@
 <div class="container">
   <h1>Check Out The Pure Barre Employees Below!</h1>
 
-  <div class="employee-list" *ngFor="let employee of employees | async">
+<div class="role-filter">
+  <select (change)="onChange($event.target.value)">
+    <option value="all-employees">All Employees</option>
+    <option *ngFor="let role of uniqueRoles" value="{{role}}" >{{role}}</option>
+  </select>
+</div>
+
+  <div class="employee-list" *ngFor="let employee of employees | roleFilter:filterByRole">
+    <label>Filter By Role</label>
     <div class="employee well">
       <h3>{{employee.name}}</h3>
       <img class="employee-image" src="{{employee.imageURL}}" alt="Employee Profile Image">
