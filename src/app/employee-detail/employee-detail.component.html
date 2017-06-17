@@ -1,13 +1,19 @@
 <div class="container">
-  <img class="employee-detail-photo" src="{{employeeToShow?.imageURL}}" alt="{{employeeToShow?.name}} Image">
-  <h1>{{employeeToShow?.name}}</h1>
-  <ul>
-    <li>Role: {{employeeToShow?.role}}</li>
-    <li>Professional Strength: {{employeeToShow?.strength}}</li>
-    <li>Schedule Preference: {{employeeToShow?.schedulePreference}}</li>
-    <li>Classes Taught: {{employeeToShow?.classesTaught}}</li>
-  </ul>
-</div>
-<div>
-  <p>A little about her: {{employeeToShow?.aboutMe}}</p>
+  <div class="row">
+    <div class="col-md-6">
+      <img class="employee-detail-photo" src="{{employeeToShow?.imageURL}}" alt="{{employeeToShow?.name}} Image">
+    </div>
+    <div class="col-md-6 employee-details-text">
+      <h1>{{employeeToShow?.name}}</h1>
+      <ul>
+        <li>Role: {{employeeToShow?.role}}</li>
+        <li>Professional Strength: {{employeeToShow?.strength}}</li>
+        <li>Schedule Preference: {{employeeToShow?.schedulePreference}}</li>
+        <li>Classes Taught: {{employeeToShow?.classesTaught}}</li>
+      </ul>
+      <div>
+        <p>{{employeeToShow?.aboutMe}}</p>
+      </div>
+    </div>
+  </div>
 </div>

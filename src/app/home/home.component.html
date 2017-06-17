@@ -2,6 +2,7 @@
   <h1>Check Out The Pure Barre Employees Below!</h1>
 
 <div class="role-filter">
+  <label>Filter By Role</label>
   <select (change)="onChange($event.target.value)">
     <option value="all-employees">All Employees</option>
     <option *ngFor="let role of uniqueRoles" value="{{role}}" >{{role}}</option>
@@ -9,24 +10,25 @@
 </div>
 
   <div class="employee-list" *ngFor="let employee of employees | roleFilter:filterByRole">
-    <label>Filter By Role</label>
-    <div class="employee well">
-      <h3>{{employee.name}}</h3>
-      <img class="employee-image" src="{{employee.imageURL}}" alt="Employee Profile Image">
-      <div *ngIf="currentRoute === '/'">
-        <button class="btn btn-default" (click)="detailButtonClicked(employee)">View Employee Details</button>
-      </div>
+    <div class="employee-well well">
+      <div class="well-content">
+        <h3>{{employee.name}}</h3>
+        <img class="employee-image" src="{{employee.imageURL}}" alt="Employee Profile Image">
+        <div *ngIf="currentRoute === '/'">
+          <button class="btn btn-default" (click)="detailButtonClicked(employee)">View Employee Details</button>
+        </div>
 
-      <div *ngIf="currentRoute === '/admin'">
-        <ul>
-          <li>Role: {{employee.role}}</li>
-          <li>Professional Strength: {{employee.strength}}</li>
-          <li>Schedule Preference: {{employee.schedulePreference}}</li>
-          <li>Classes Taught: {{employee.classesTaught}}</li>
-          <li>A little about her: {{employee.aboutMe}}</li>
-        </ul>
-        <hr>
-        <app-edit-employee [selectedEmployee]="employee"></app-edit-employee>
+        <div *ngIf="currentRoute === '/admin'">
+          <ul>
+            <li>Role: {{employee.role}}</li>
+            <li>Professional Strength: {{employee.strength}}</li>
+            <li>Schedule Preference: {{employee.schedulePreference}}</li>
+            <li>Classes Taught: {{employee.classesTaught}}</li>
+            <li>A little about her: {{employee.aboutMe}}</li>
+          </ul>
+          <hr>
+          <app-edit-employee [selectedEmployee]="employee"></app-edit-employee>
+        </div>
       </div>
 
     </div>

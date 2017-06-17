@@ -2,3 +2,17 @@
   width: 500px;
   height: auto;
 }
+
+.employee-details-text {
+  padding: 100px 0 0 50px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.container{
+  padding: 100px;
+}
