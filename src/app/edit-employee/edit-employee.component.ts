@@ -22,4 +22,11 @@ export class EditEmployeeComponent implements OnInit {
     this.router.navigate(['employees', this.selectedEmployee.$key]);
   }
 
+  deleteButtonClicked(employeeToDelete){
+    if(confirm("Are you sure you want to delete this employee?")){
+      this.employeeService.deleteEmployee(employeeToDelete);
+      this.router.navigate(['']);
+    }
+  }
+
 }

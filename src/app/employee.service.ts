@@ -34,4 +34,9 @@ export class EmployeeService {
                               imageURL: employeeToUpdate.imageURL
                             });
   }
+
+  deleteEmployee(employeeToDelete){
+    var employeeEntryInFirebase = this.getEmployeeById(employeeToDelete.$key);
+    employeeEntryInFirebase.remove();
+  }
 }
