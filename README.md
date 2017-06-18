@@ -4,6 +4,9 @@
 
 #### By _**Asia Kane**_
 
+
+![Homepage](src/assets/img/homepage.png)
+
 ## Description
 
 Barre is a form of fitness that is sweeping the nation!  I work as a teacher at the Pure Barre Portland Studio.  This application was built to help the Pure Barre manage keep track of employees! This app fulfills the following user stories:
@@ -120,6 +123,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * CSS
 * Bootstrap https://getbootstrap.com/
 * ES6
+
+## Screen Shots
+
+![Details](src/assets/img/employee-details.png)
+
+![Abut](src/assets/img/about.png)
+
+![New](src/assets/img/new-employee.png)
+
+![Edit](src/assets/img/edit-employee.png)
 
 ## Known Bugs
 _N/A_
