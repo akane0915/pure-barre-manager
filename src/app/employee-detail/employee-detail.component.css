@@ -1,10 +1,15 @@
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+}
+
 .employee-detail-photo {
   width: 500px;
   height: auto;
 }
 
 .employee-details-text {
-  padding: 100px 0 0 50px;
+  padding: 0 0 0 50px;
   text-align: center;
 }
 

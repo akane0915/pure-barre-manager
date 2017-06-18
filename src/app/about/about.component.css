@@ -1,3 +1,12 @@
 .container{
   padding: 100px;
 }
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+}
+
+h4 {
+  line-height: 2em;
+}
