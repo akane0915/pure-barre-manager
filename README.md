@@ -4,6 +4,8 @@
 
 #### By _**Asia Kane**_
 
+#### View Project at: https://pure-barre-manager.firebaseapp.com/
+
 
 ![Homepage](src/assets/img/homepage.png)
 
